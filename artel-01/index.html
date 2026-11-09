@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Артель-01</title>
+    <script type="module" crossorigin src="./assets/index-DAvr4Hv-.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/CanvasPool-D071ZhP4.js">
+    <link rel="modulepreload" crossorigin href="./assets/canvasUtils-G1F85v5_.js">
+    <link rel="modulepreload" crossorigin href="./assets/RenderTargetSystem-BssNwx7J.js">
+    <link rel="modulepreload" crossorigin href="./assets/getTextureBatchBindGroup-hK4Xhp7N.js">
+    <link rel="modulepreload" crossorigin href="./assets/getTexelRangeRects-n9rC3yLB.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-DbycRI6S.css">
+  </head>
+  <body>
+    <div id="app">
+      <header id="top">
+        <h1>Артель</h1>
+        <div id="status"></div>
+        <div class="spacer"></div>
+        <button id="btn-new" class="ghost">Новая игра</button>
+      </header>
+      <main>
+        <section id="left">
+          <div id="plan"></div>
+          <div id="controls">
+            <div id="places"></div>
+            <div id="caption"></div>
+            <button id="btn-next">Дальше ▸</button>
+          </div>
+          <div id="log-wrap">
+            <div class="log-head">
+              <b>Лента</b>
+              <span><select id="log-place"></select> <select id="log-filter"></select></span>
+            </div>
+            <div id="log"></div>
+          </div>
+        </section>
+        <aside id="right">
+          <nav id="tabs">
+            <button data-tab="desk">Стол</button>
+            <button data-tab="card">Человек</button>
+            <button data-tab="board">Доска</button>
+          </nav>
+          <div id="tab-desk" class="tab"></div>
+          <div id="tab-card" class="tab"></div>
+          <div id="tab-board" class="tab"></div>
+        </aside>
+      </main>
+      <div id="modal" hidden></div>
+      <div id="toast" hidden></div>
+      <div id="debug" hidden></div>
+    </div>
+  </body>
+</html>
